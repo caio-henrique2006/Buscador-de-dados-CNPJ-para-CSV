@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buscador de dados</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <button id="cnpj">CNPJ</button>
-    <button id="csv">CSV</button>
+    <textarea class="textarea" type="textarea" id="textarea"></textarea>
+    <p class="text">Estado da busca: </p>    
+    <p class="text" id="state"></p>
+    <p class="text" id="stateTime"></p>
+    <button id="cnpj">Buscar dados dos CNPJs</button><br>
+    <button id="csv" disabled>Baixar o CSV</button>
 
     <script src="script.js"></script>
 </body>
