@@ -1,0 +1,29 @@
+{
+  "name": "buscador-de-dados-cnpj-para-csv",
+  "version": "1.0.0",
+  "description": "Buscador de dados de um CNPJ e conversor desses dados em formato CSV",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caio-henrique2006/Buscador-de-dados-CNPJ-para-CSV.git"
+  },
+  "keywords": [
+    "CNPJ",
+    "CSV",
+    "buscador",
+    "metadata"
+  ],
+  "author": "Caio Henrique Almeida Ferreira Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caio-henrique2006/Buscador-de-dados-CNPJ-para-CSV/issues"
+  },
+  "homepage": "https://github.com/caio-henrique2006/Buscador-de-dados-CNPJ-para-CSV#readme",
+  "devDependencies": {
+    "electron": "^31.4.0"
+  }
+}
