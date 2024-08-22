@@ -3,9 +3,10 @@ const { app, BrowserWindow } = require("electron");
 const mainWindow = () => {
   const win = new BrowserWindow({
     height: 800,
-    width: 500,
+    width: 1000,
   });
 
+  win.webContents.openDevTools();
   win.loadFile("main_window/index.html");
 };
 
