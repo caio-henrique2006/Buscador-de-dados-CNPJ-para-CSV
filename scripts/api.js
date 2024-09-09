@@ -1,6 +1,6 @@
 export default class Api {
   /* 
-    Public API which we are using has a limit of 3 request per minute.
+    The Public API which we are using has a limit of 3 request per minute.
     So each fetch is made in 21 seconds (21000 miliseconds) for safety
   */
   #TIME_FOR_EACH_FETCH = 21000;
