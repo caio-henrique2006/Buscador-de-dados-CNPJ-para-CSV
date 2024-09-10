@@ -1,21 +1,12 @@
 import Api from "../scripts/api.js";
+import Render from "../scripts/render.js";
 
 const api = new Api();
+const render = new Render(api);
 
 window.onload = () => {
-  const timer_view = document.getElementById("timer_view");
-  const amount_fetched = document.getElementById("amount_fetched");
-  setInterval(() => {
-    let timer = api.getTimeUntilEndOfFetch();
-    let current_CNPJ_fetched = api.getAmountCurrentCNPJData();
-    let CNPJ_to_be_fetched = api.getAmountToBeFetchedCNPJData();
-    if (timer <= 0) {
-      timer_view.innerText = "Sem busca...";
-    } else {
-      timer_view.innerText = timer;
-    }
-    amount_fetched.innerText = current_CNPJ_fetched + "/" + CNPJ_to_be_fetched;
-  }, 500);
+  render.dinamicTimer();
+  render.dinamicAmountFetched();
 };
 
 document.getElementById("btn_fetch_data").addEventListener("click", () => {
@@ -31,4 +22,8 @@ document.getElementById("btn_fetch_data").addEventListener("click", () => {
 document.getElementById("btn_view_data").addEventListener("click", () => {
   console.log(api.getCurrentCNPJData());
   console.log(api.getTimeUntilEndOfFetch());
+});
+
+document.getElementById("btn_stop_fetch").addEventListener("click", () => {
+  api.stopDataFetching();
 });
