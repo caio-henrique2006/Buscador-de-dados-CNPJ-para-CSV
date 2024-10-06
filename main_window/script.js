@@ -1,3 +1,8 @@
+/**
+ * Handles the loading event of the page
+ * Handles the button events of the events
+ *  */
+
 import Api from "../scripts/api.js";
 import Render from "../scripts/render.js";
 
