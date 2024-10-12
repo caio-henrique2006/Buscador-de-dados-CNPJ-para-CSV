@@ -1,3 +1,7 @@
-export default class TimeUtil {
-  milisecondsToFullTime(miliseconds) {}
+class TimeUtil {
+  milisecondsToFullTime(miliseconds) {
+    return "1 min";
+  }
 }
+
+module.exports = TimeUtil;

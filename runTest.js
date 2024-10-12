@@ -1,6 +1,7 @@
 const _timeUtil = require("./_test/_timeUtil.js");
 
 const args = process.argv.slice(2);
+console.log(args);
 args.forEach(async (item) => {
   switch (item) {
     case "api":
