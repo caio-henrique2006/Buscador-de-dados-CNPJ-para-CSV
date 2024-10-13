@@ -13,4 +13,4 @@ Ele utiliza da API pública [nome da api pública] para buscar os dados dos CNPJ
 
 ## Testes com commits do github
 
-Texto de teste
+Texto de teste Texto de teste denovo
