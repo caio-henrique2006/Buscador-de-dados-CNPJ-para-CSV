@@ -4,7 +4,7 @@ O presente programa permite a busca pelos dados de vários CNPJs ao mesmo tempo.
 
 ## Como usar ?
 
-Para usar o programa, é apenas preciso baixar e instalar o arquivo executável.
+Para usar o programa, é apenas preciso baixar e instalar o arquivo executável na máquina.
 
 ## Tecnologias usadas
 
