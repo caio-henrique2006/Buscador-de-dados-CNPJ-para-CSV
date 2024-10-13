@@ -10,3 +10,7 @@ Para usar o programa, é apenas preciso baixar e instalar o arquivo executável.
 
 O programa é feito em Electron js e node js.
 Ele utiliza da API pública [nome da api pública] para buscar os dados dos CNPJs.
+
+## Testes com commits do github
+
+Texto de teste Texto de teste denovo
